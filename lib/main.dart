@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
           Container(
             decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage('assets/images/place6.jpg'),
+                    image: AssetImage('assets/images/place10.jpg'),
                     fit: BoxFit.cover)),
             child: Container(
               decoration: BoxDecoration(
@@ -38,9 +38,10 @@ class _HomePageState extends State<HomePage> {
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: <Widget>[
-                          makeItem(image: 'assets/images/place2.jpg'),
-                          makeItem(image: 'assets/images/place6.jpg'),
-                          makeItem(image: 'assets/images/place4.jpg'),
+                          makeItem(image: 'assets/images/corel.png'),
+                          makeItem(image: 'assets/images/pho.jpg'),
+                          makeItem(image: 'assets/images/pr.png'),
+                          makeItem(image: 'assets/images/ai.png'),
                         ],
                       ),
                     ),
